@@ -1,0 +1,53 @@
+/* Allgemein */
+body {font-family: 'Arvo', serif; font-weight: 400; font-size: 12px;}
+html {background: url("../images/backgrounds/gra_hg_grau.jpg") repeat scroll 0 0 transparent; padding-top: 15px;}
+#top {width: 1020px; margin: auto; text-align: right;}
+.container_20 {width: 1020px; margin-top: 15px; border: none; background-color: transparent;}
+
+/* Header */
+#top a.account {font-weight: 700; color: #4d4d4d;}
+#top a {color: #4d4d4d; text-decoration: none !important;}
+#top a.active {font-weight: 700;}
+#top span {padding: 0 5px;}
+#header {background: url("../images/backgrounds/gra_header.png") repeat scroll 0 0 transparent; height: 100px;}
+#header #logo {width: 370px; height: 100px;}
+#header #logo a {height: 70px;margin: 15px 0 0 32px;width: 335px; background: none no-repeat scroll 0 0 transparent;}
+div#searchcontainer {background: none no-repeat scroll 0 0 transparent; height: 25px; width: 275px; margin: 64px 0 0 153px;}
+div.inner_searchcontainer {margin: 0;}
+form#searchform input#searchfield {background: url("../images/buttons/gra_suche_left.jpg") no-repeat scroll 0 0 transparent; width: 218px; height: 25px; padding-left: 5px; border: none; padding-top: 1px;}
+div.inner_searchcontainer #submit_search {cursor: pointer; background: url("../images/buttons/gra_suche_right.jpg") no-repeat scroll 0 0 transparent; width: 23px; height: 25px;}
+div.inner_searchcontainer .ajax_loader {left: 250px;}
+
+#shopnavi .newbasket {right: -320px;}
+
+.wrapper_menu {width: 825px !important; padding: 0; margin-top: 0;}
+.wrapper_menu .menu {height: 36px !important; margin: 0 !important;}
+.menu li, .menu li:hover {padding: 0 !important; margin: 0;}
+.menu li.nodrop a {background: url("../images/buttons/btn_menu.png") repeat scroll -1px -1px transparent; display: block; height: 25px; width: 43px; padding: 0;}
+.menu li.nodrop a:hover, .menu li.nodrop a.active {background-position: -1px -36px; padding: 0; width: 43px; height: 33px;}
+.menu li a {color: #000; font-weight: 700; line-height: 24px; border-top: 1px solid #efefef; border-right: 1px solid #efefef; font-family: 'Arvo', serif !important;}
+.menu li a.active {color: #fff;}
+
+.menu li a.cat940 {background: url("../images/buttons/btn_menu.png") repeat scroll 0 -71px transparent !important; display: block; height: 25px; width: auto; padding-right: 17px; padding-left: 10px;}
+.menu li a.cat940.active {background-position: 0 -106px !important; width: auto;}
+
+.menu li a.cat939 {background: url("../images/buttons/btn_menu.png") repeat scroll 0px -141px transparent !important; display: block; height: 25px; width: auto; padding-right: 44px; padding-left: 10px}
+.menu li a.cat939.active {background-position: 0px -176px !important;}
+
+.menu li a.cat941 {background: url("../images/buttons/btn_menu.png") repeat scroll -1px -211px transparent !important; display: block; height: 25px; width: auto; padding-right: 43px; padding-left: 10px}
+.menu li a.cat941.active {background-position: -1px -246px !important;}
+
+.menu li a.cat942 {background: url("../images/buttons/btn_menu.png") repeat scroll -6px -281px transparent !important; display: block; height: 25px; width: auto; padding-right: 40px; padding-left: 10px}
+.menu li a.cat942.active {background-position: -6px -316px !important;}
+
+.menu li a.cat943 {background: url("../images/buttons/btn_menu.png") repeat scroll -6px -351px transparent !important; display: block; height: 25px; width: auto; padding-right: 40px; padding-left: 10px}
+.menu li a.cat943.active {background-position: -6px -386px !important;}
+
+.menu li a.cat1087 {background: url("../images/buttons/btn_menu.png") repeat scroll -6px -351px transparent !important; display: block; height: 25px; width: auto; padding-right: 40px; padding-left: 10px}
+.menu li a.cat1087.active {background-position: -6px -386px !important;}
+
+.menu li a.active:hover {color: #ffffff !important;}
+
+.menu_light_theme ul li:hover .drop {border-radius: 0; background-color: transparent; height: 25px; color: #000;}
+
+.menu li:hover .dropdown_fullwidth {margin-top: -5px !important; width: 825px !important;}
