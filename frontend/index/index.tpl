@@ -89,9 +89,7 @@
         {block name="frontend_index_content_top"}{/block}
 
         {* Sidebar left *}
-        {block name='frontend_index_content_left'}
-        {include file='frontend/index/left.tpl'}
-        {/block}
+        {block name='frontend_index_content_left'}{/block}
 
         {* Main content *}
         {block name='frontend_index_content'}{/block}

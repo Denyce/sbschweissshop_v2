@@ -3,6 +3,9 @@ body {font-family: 'Arvo', serif; font-weight: 400; font-size: 12px;}
 html {background: url("../images/backgrounds/gra_hg_grau.jpg") repeat scroll 0 0 transparent; padding-top: 15px;}
 #top {width: 1020px; margin: auto; text-align: right;}
 .container_20 {width: 1020px; margin-top: 15px; border: none; background-color: transparent;}
+#content {margin-top: 0;}
+#content #center {margin: 0;}
+#content .inner {width: 1020px;}
 
 /* Header */
 #top a.account {font-weight: 700; color: #4d4d4d;}
@@ -17,37 +20,43 @@ div.inner_searchcontainer {margin: 0;}
 form#searchform input#searchfield {background: url("../images/buttons/gra_suche_left.jpg") no-repeat scroll 0 0 transparent; width: 218px; height: 25px; padding-left: 5px; border: none; padding-top: 1px;}
 div.inner_searchcontainer #submit_search {cursor: pointer; background: url("../images/buttons/gra_suche_right.jpg") no-repeat scroll 0 0 transparent; width: 23px; height: 25px;}
 div.inner_searchcontainer .ajax_loader {left: 250px;}
-
 #shopnavi .newbasket {right: -320px;}
 
-.wrapper_menu {width: 825px !important; padding: 0; margin-top: 0;}
-.wrapper_menu .menu {height: 36px !important; margin: 0 !important;}
+/* Main Navigation */
+.wrapper_menu {width: 825px !important; padding: 0; margin-top: 0; height: 35px; margin: 0;}
+.wrapper_menu .menu {height: 35px !important; margin: 0 !important;}
 .menu li, .menu li:hover {padding: 0 !important; margin: 0;}
-.menu li.nodrop a {background: url("../images/buttons/btn_menu.png") repeat scroll -1px -1px transparent; display: block; height: 25px; width: 43px; padding: 0;}
-.menu li.nodrop a:hover, .menu li.nodrop a.active {background-position: -1px -36px; padding: 0; width: 43px; height: 33px;}
+.menu li.nodrop a {background: url("../images/buttons/btn_menu.png") repeat scroll -1px 0px transparent; display: block; height: 35px; width: 43px; padding: 0; border: none;}
+.menu li.nodrop a:hover, .menu li.nodrop a.active {background-position: -1px -35px; padding: 0; width: 43px; height: 35px;}
 .menu li a {color: #000; font-weight: 700; line-height: 24px; border-top: 1px solid #efefef; border-right: 1px solid #efefef; font-family: 'Arvo', serif !important;}
 .menu li a.active {color: #fff;}
-
 .menu li a.cat940 {background: url("../images/buttons/btn_menu.png") repeat scroll 0 -71px transparent !important; display: block; height: 25px; width: auto; padding-right: 17px; padding-left: 10px;}
 .menu li a.cat940.active {background-position: 0 -106px !important; width: auto;}
-
 .menu li a.cat939 {background: url("../images/buttons/btn_menu.png") repeat scroll 0px -141px transparent !important; display: block; height: 25px; width: auto; padding-right: 44px; padding-left: 10px}
 .menu li a.cat939.active {background-position: 0px -176px !important;}
-
 .menu li a.cat941 {background: url("../images/buttons/btn_menu.png") repeat scroll -1px -211px transparent !important; display: block; height: 25px; width: auto; padding-right: 43px; padding-left: 10px}
 .menu li a.cat941.active {background-position: -1px -246px !important;}
-
 .menu li a.cat942 {background: url("../images/buttons/btn_menu.png") repeat scroll -6px -281px transparent !important; display: block; height: 25px; width: auto; padding-right: 40px; padding-left: 10px}
 .menu li a.cat942.active {background-position: -6px -316px !important;}
-
 .menu li a.cat943 {background: url("../images/buttons/btn_menu.png") repeat scroll -6px -351px transparent !important; display: block; height: 25px; width: auto; padding-right: 40px; padding-left: 10px}
 .menu li a.cat943.active {background-position: -6px -386px !important;}
-
-.menu li a.cat1087 {background: url("../images/buttons/btn_menu.png") repeat scroll -6px -351px transparent !important; display: block; height: 25px; width: auto; padding-right: 40px; padding-left: 10px}
-.menu li a.cat1087.active {background-position: -6px -386px !important;}
-
+.menu li a.cat1087 {background: url("../images/buttons/btn_menu.png") repeat scroll -6px -420px transparent !important; display: block; height: 25px; width: auto; padding-right: 40px; padding-left: 10px}
+.menu li a.cat1087.active {background-position: -6px -455px !important;}
 .menu li a.active:hover {color: #ffffff !important;}
-
 .menu_light_theme ul li:hover .drop {border-radius: 0; background-color: transparent; height: 25px; color: #000;}
-
 .menu li:hover .dropdown_fullwidth {margin-top: -5px !important; width: 825px !important;}
+
+/* Breadcrumb */
+div#breadcrumb {background: url("../images/backgrounds/gra_bc_bar.jpg") repeat scroll 0 0 transparent; height: 25px; border: none; padding: 0;width: 1020px;}
+div#breadcrumb a {font-family: 'Open Sans', sans-serif; color: #ffffff; background: url("../images/buttons/gra_bc.png") repeat scroll right 0 transparent; padding: 4px 18px 4px 10px; position: relative; top: -6px; left: 0px; z-index: 999999;}
+div#breadcrumb a.item0 {padding: 4px 18px 4px 15px; left: -10px; z-index: 888888;}
+div#breadcrumb a.item1 {padding: 4px 18px 4px 15px; left: -20px; z-index: 777777;}
+div#breadcrumb a.item2 {padding: 4px 18px 4px 15px; left: -30px; z-index: 666666;}
+div#breadcrumb a.item3 {padding: 4px 18px 4px 15px; left: -40px; z-index: 555555;}
+div#breadcrumb a.item4 {padding: 4px 18px 4px 15px; left: -50px; z-index: 444444;}
+div#breadcrumb a.item5 {padding: 4px 18px 4px 15px; left: -60px; z-index: 333333;}
+
+/* Slider Home */
+#center .slider_banner .bannerSlider .sliding_outer, #center .slider_banner .bannerSlider {width: 1020px;}
+#content .inner, #content .inner div#center {width: 1020px;}
+#center .slider_banner {width: 1020px;}
